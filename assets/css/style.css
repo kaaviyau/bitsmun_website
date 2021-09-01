@@ -10,7 +10,7 @@ a {
   color: #1a1a1a;
 }
 
-body{
+body,main{
   overflow-x: hidden;
 }
 
