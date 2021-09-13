@@ -10,10 +10,12 @@ a {
   color: #1a1a1a;
 }
 
-body,main{
+body{
   overflow-x: hidden;
 }
-
+#main1{
+  overflow-x: hidden;
+}
 a:hover {
   color: #1a1a1a;
   text-decoration: none;
