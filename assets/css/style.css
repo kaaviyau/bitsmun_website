@@ -3257,3 +3257,24 @@ section {
   width: inherit;
   align-items: center;
 }
+.eb {
+  justify-content: flex-start;
+  border: 0px;
+  width: 100%;
+  margin: auto;
+  text-align: space-evenly;
+}
+
+.facilities-col {
+  flex-basis: 31%;
+  margin-bottom: 10px;
+  text-align: center;
+   align-items:center;
+   margin-left: 20px;
+}
+
+.facilities-col h3 {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-align: left;
+}
