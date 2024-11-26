@@ -3362,3 +3362,43 @@ section {
 	text-decoration: none;
 	color: inherit;
 }
+
+.splide__slide img {
+	width: 100%;
+	height: 100vh;
+  }
+  .splide {
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100vh;
+  }
+  
+
+  .splide__track {
+	position: relative;
+	overflow: hidden;
+  }
+  
+  .splide__list {
+	display: flex;
+	width: 100%;
+	height: 100%;
+  }
+  #Letter-from-the-Sec{
+	font-family: "Lexend", serif; /* Choose a serif font for a formal look */
+	font-family: 500;
+	font-size: 16px; /* Adjust the size as needed */
+	line-height: 120%; /* Increase line spacing for readability */
+	color: #000000; /* Dark grey text color */
+	margin: 1em 0; /* Add vertical spacing between paragraphs */
+	text-align: justify; /* Justify text for a clean look */
+	transform: translateX(25%);
+  }
+  
+  #Letter-from-the-Sec span {
+	display: block; /* Ensure the content inside spans has block formatting */
+	font-weight: 700; /* Make the name and title stand out */
+	color: #247275; /* Add a blue color to the name for emphasis */
+  }
+  
