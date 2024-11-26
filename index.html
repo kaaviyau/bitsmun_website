@@ -10,6 +10,8 @@
 			name="description"
 		/>
 		<meta content="BITS Model United Nations Goa" name="keywords" />
+		
+		<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide-core.min.css" rel="stylesheet">
 
 		<!-- Favicons -->
 		<link href="assets/img/bitsmun_black.png" rel="icon" />
@@ -20,6 +22,9 @@
 			href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Stick+No+Bills:wght@200..800&display=swap" rel="stylesheet">
 
 		<!-- Vendor CSS Files -->
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -86,20 +91,20 @@
 				<nav class="nav-menu float-right d-none d-lg-block">
 					<ul>
 						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="bitsmun24.html">BITSMUN '24</a></li>
-						<li><a href="events.html">Events</a></li>
+						<li><a href="bitsmun25.html">BITSMUN '25</a></li>
+						<!-- <li><a href="events.html">Events</a></li> -->
 						<li><a href="about.html">About Us</a></li>
 
 						<li><a href="team.html">Our Team</a></li>
-						<li><a href="articles.html">Articles</a></li>
+						<li><a href="sponsors.html">Sponsors</a></li>
 						<li><a href="contact.html">Contact Us</a></li>
 						<li class="drop-down">
 							<a href="">More</a>
 							<ul>
-								<li><a href="bitsmun23.html">BITSMUN '23</a></li>
-								<li><a href="partners.html">Our Partners</a></li>
+								<li><a href="bitsmun24.html">BITSMUN '24</a></li>
+								<!-- <li><a href="partners.html">Our Partners</a></li>
 								<li><a href="pastcommittes.html">Past Committees</a></li>
-								<li><a href="sponsors.html">Sponsors</a></li>
+								<li><a href="sponsors.html">Sponsors</a></li> -->
 								<li><a href="faq.html">FAQ</a></li>
 							</ul>
 						</li>
@@ -124,29 +129,42 @@
     </div>
   </section>End Hero -->
 		-->
+		
 
-		<div class="page">
+		<div class="page">		
 			<div class="hero-scaling" style="width: 100%; align-items: center">
 				<div
 					style="
 						width: 100%;
 						height: 100vh;
-						background-image: url(./assets/img/23-bg.png);
 						background-size: cover;
 					"
 				>
+				<div id="image-slider" class="splide">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide"><img src="./assets/img/25bg1.png" alt="Background 1"></li>
+							<li class="splide__slide"><img src="./assets/img/25bg2.png" alt="Background 2"></li>
+							<li class="splide__slide"><img src="./assets/img/25bg3.png" alt="Background 3"></li>
+							<li class="splide__slide"><img src="./assets/img/25bg4.png" alt="Background 4"></li>
+							<li class="splide__slide"><img src="./assets/img/25bg6.png" alt="Background 5"></li>
+							<li class="splide__slide"><img src="./assets/img/25bg7.png" alt="Background 6"></li>
+						</ul>
+					</div>
+				</div>
 					<div
 						class="hero-flex"
 						style="
 							width: 100%;
 							height: 100vh;
+							background: transparent;
 							background: radial-gradient(
 								142.57% 112.57% at 50% 38.74%,
 								rgba(0, 0, 0, 0.8) 9.37%,
 								rgba(0, 0, 0, 0) 100%
 							);
 						"
-					>
+					>				
 						<div>
 							<img
 								src="./assets/img/bitsmun24_15th_white.png"
@@ -158,8 +176,8 @@
 						
 						<div class="hero-text">
 							<h2>BITSMUN</h2>
-							<h3>GOA '24</h3>
-							<h3 style="margin-top:-5%"><small>Inspire | Innovate | Influence</small></h3>
+							<h3>GOA '25</h3>
+							<h3 style="margin-top:-5%"><small>Conciliation in Consensus</small></h3>
 						</div>
 						
 						<div class="btn-group-justified btn-group">
@@ -167,10 +185,10 @@
 								<a href="./earlybirdregistrations.html"
 									>REGISTER</a
 								></button>
-								<button type="button" class="btn btn-light btn-lg mt-2 mx-3">	
+								<!-- <button type="button" class="btn btn-light btn-lg mt-2 mx-3">	
 								<a href="./bitsmun24.html"
 									>MORE INFO</a
-								></button>
+								></button> -->
 						</div>
 						<div class="container"><div class="row"><div id="flipdown" class="mx-auto flipdown"></div></div></div>
 					</div>
@@ -178,7 +196,7 @@
 			</div>
 		</div>
 
-				<section class="features">
+				<!-- <section class="features">
 					<div class="container">
 				
 						<div class="section-title">
@@ -314,22 +332,22 @@
 									</div>
 									<div class="col-lg-4"></div>
 								</div>
-								<!-- add here-->
+							
 							</div>
-						</section><!-- End Team Section -->
+						</section>
 				
 					</div>
-				</section><!-- End Features Section -->
+				</section> -->
 
 		<main id="main1">
 			<br />
 			
-			<div class="section-title">
+			<!-- <div class="section-title">
 				<h2>Past Events</h2>
-			</div>
+			</div> -->
 
 			<!-- ======= Why Us Section ======= -->
-			<section
+			<!-- <section
 				class="why-us section-bg"
 				data-aos="fade-up"
 				date-aos-delay="200"
@@ -424,9 +442,39 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!-- End Why Us Section -->
 			<br />
+			<div class="section-title">
+				<h2>Letter from the Secretary-General</h2>
+			</div>
+
+			<div id="Letter-from-the-Sec">
+				<p>It gives me great joy to extend a warm invitation to all of you for the sixteenth edition of BITSMUN Goa '25,<br>
+				scheduled to take place from February 7th to 9th, 2025. <br><br>
+				
+				BITSMUN Goa is dedicated to providing a platform where young leaders can come together to address some of the <br>
+				most urgent global challenges of our time. The carefully crafted committees aim to simulate the functions of the <br>
+				United Nations and its diverse bodies, offering an opportunity for you to hone your research, public speaking and <br>
+				negotiation skills. <br><br>
+				
+				Our committed team of chairs, directors, and staff will guide and support you in every step of the way. The <br>
+				committees are designed to replicate the dynamics of the United Nations, offering a glimpse into the life of a <br>
+				diplomat. <br><br>
+				
+				BITSMUN Goa seeks to cultivate curiosity and analytical thinking among delegates, while boosting their confidence in <br>
+				presenting ideas. This conference is not only a catalyst for meaningful and lasting change but also an opportunity to <br>
+				build relationships and skills that will serve you well in the future. <br><br>
+				
+				We look forward to host you at our conference. <br><br>
+				Regards,<br>
+				<span>Abhinav Dey <br>
+				Secretary-General <br>
+				BITSMUN Goa ‘25 <br><br></span></p>
+			</div>
+
+
+
 			<div class="section-title">
 				<h2>BITSMUN Goa '20</h2>
 			</div>
@@ -484,10 +532,10 @@
 									<a href="index.html">Home</a>
 								</li>
 								<li><i class="bx bx-chevron-right"></i> <a href="../bitsmun23.html">BITSMUN '23</a></li>
-								<li>
+								<!-- <li>
 									<i class="bx bx-chevron-right"></i>
 									<a href="events.html">Events</a>
-								</li>
+								</li> -->
 								<li>
 									<i class="bx bx-chevron-right"></i>
 									<a href="about.html">About Us</a>
@@ -589,5 +637,9 @@
 
 		<!-- Template Main JS File -->
 		<script src="assets/js/main.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"></script>
+		<script src="assets/js/slider.js"></script>
+
+
 	</body>
 </html>
